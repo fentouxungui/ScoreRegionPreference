@@ -1,0 +1,25 @@
+Package: ScoreRegionPreference
+Title: Score the regional preference for scRNAseq cluster based on regional bulkRNAseq data.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yongchao", "Zhang", , "zhangyongchao@nibs.ac.cn", role = c("aut", "cre"),
+           comment = c(Github = "https://github.com/fentouxungui"))
+Description: Score the regional preference for scRNAseq cluster based on regional bulkRNAseq data.
+License:  GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 3.5.0)
+LazyData: true
+Imports: 
+    dplyr,
+    ineq,
+    pheatmap,
+    Seurat,
+    stats,
+    VennDiagram,
+    grid
+Suggests:
+    ggplot2
+LazyDataCompression:xz
